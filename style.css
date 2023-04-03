@@ -2,15 +2,16 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 body {
     height: 100vh;
     width: 100vw;
-  }
+  }https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=%5B1120%2C640%5D&w=2000&h=1333&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F06%2F29%2Fbaby-goat-1199492038-2000.jpg
   * {
     box-sizing: border-box;
-  }
+  }https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=%5B1120%2C640%5D&w=2000&h=1333&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F06%2F29%2Fbaby-goat-1199492038-2000.jpg
 body {
     height: 100vh;
     margin: 0;
@@ -25,75 +26,100 @@ img {
 .flex-container {
     display: flex; 
     flex-direction: column;
-    justify-content: flex-start;
-    background-color: cyan;
+    justify-content: space-around;
     max-height: 100%;
     height: 100%;
-  width: 100%;
-    
-   
-    
-    
+  width: 100%;   
 }
 
 .container {
-    flex: 1
-    border: 1px solid #ddd;
-    background-color: blue;
+
+    
 }
 
-
+.header-logo > img {
+    height: 25px
+}
 .header {
     display: flex;
-    justify-content: flex-end;
-    align-content: space-between;
-    background-color: brown
+   justify-content: space-between;
+    background-color: black;
+    height: 50px;
     
 }
 .header-items {
     border-color: black;
-    justify-content: space-around;
-    width: 25px
+    width: 25px;
     height: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.header-logo{
+    align-items: start;
+    flex: 1;
 
 }
 .banner {
     display: flex;
-    background-color: blueviolet;
+    color: white;
+    background-color: black;
+    align-content: space-between;
+    justify-content: center
 }
 
 .banner-items {
-    flex: 1
+    width: 350px;
+    padding: 50px;
+}
+
+.banner-items > img {
+    width: 250px;
 }
 
 
 .picture {
     display: flex;
-    background-color: chocolate;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+div > h1 {
+    display: flex;
+    background-color: black;
+    color:  white;
+    justify-content: center;
+    align-items: center;
+    
+}
 .picture-items{
+    color: white;
     flex: 1;
 }
 
 .quote {
     display: flex;
-    background-color: firebrick;
+    background-color: black;
 }
 .quote-items{
+    color: white;
+    font-size: 35px;
     flex: 1;
 }
 .action {
     display: flex;
-    background-color: lightblue;
+    background-color: black;
+    justify-content: center;
 }
 .action-items {
-    flex:1
+    color: white;   
 }
 .footer {
     display: flex;
     background-color: black;
 }
 .footer-items {
+    color: white;
     flex: 1;
 }
